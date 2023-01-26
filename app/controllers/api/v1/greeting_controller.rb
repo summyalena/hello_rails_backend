@@ -4,7 +4,7 @@ module Api
   module V1
     class GreetingController < ApplicationController
       def index
-        @greeting = Greeting.all
+        @greeting = Greeting.all.shuffle
         render json: @greeting
       end
     end

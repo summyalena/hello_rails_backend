@@ -10,6 +10,6 @@
 
 Greeting.destroy_all
 greeting1 = Greeting.create(message: 'Hello there')
-greeting2 = Greeting.create(message: 'Holla there')
-greeting3 = Greeting.create(message: 'Bon jour')
-greeting4 = Greeting.create(message: 'Cava')
+greeting1 = Greeting.create(message: 'Holla there')
+greeting1 = Greeting.create(message: 'Bon jour')
+greeting1 = Greeting.create(message: 'Cava')
